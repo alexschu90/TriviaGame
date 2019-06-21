@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Trivia Game</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+</head>
+<body>
+    <div class="jumbotron text-danger">
+        <h1 class="text-center">Riddle Me This!!</h1>
+    </div>
+
+    <div id="question-content" class="container bg-secondary">
+
+            <div class="row justify-content-center">
+                <h2 id="display-time">TIME REMAINING:  </h2>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-12-sm">
+                    <h4> 1. 84% of people reading this will not find the the mistake in this 
+                        <br
+                        >A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z.
+                    </h4>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="question1" id="inlineRadio1" value="option1">
+                    <label class="form-check-label" for="inlineRadio1">84</label>
+                </div>
+
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="question1" id="inlineRadio2" value="option2">
+                    <label class="form-check-label" for="inlineRadio2">,B</label>
+                </div>
+
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="question1" id="inlineRadio3" value="option3">
+                    <label class="form-check-label" for="inlineRadio3">the</label>
+                </div>
+
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="question1" id="inlineRadio4" value="option4">
+                    <label class="form-check-label" for="inlineRadio4">P,</label>
+                </div>
+
+            </div>
+           
+
+            <div class="row justify-content-center">
+                <div class="col-12-sm"><h4> 2. Sam’s mother had 4 children in all. The first one was named May. The second and third were called June and July respectively. What was the fourth child’s name?</h4></div>
+            </div>
+
+            <div class="row justify-content-center">
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="question2" id="inlineRadio1" value="option5">
+                        <label class="form-check-label" for="inlineRadio1">August</label>
+                    </div>
+    
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="question2" id="inlineRadio2" value="option6">
+                        <label class="form-check-label" for="inlineRadio2">April</label>
+                    </div>
+    
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="question2" id="inlineRadio3" value="option7">
+                        <label class="form-check-label" for="inlineRadio3">June</label>
+                    </div>
+    
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="question2" id="inlineRadio4" value="option8">
+                        <label class="form-check-label" for="inlineRadio4">Sam</label>
+                    </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-12-sm"><h4> 3. John thought of a number, added 7, multiplied by 3, took away 5 and divided by 4 to give an answer of 7. What was the starting number?</h4></div>
+            </div>
+
+            <div class="row justify-content-center">
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="question3" id="inlineRadio1" value="option9">
+                        <label class="form-check-label" for="inlineRadio1">7</label>
+                    </div>
+    
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="question3" id="inlineRadio2" value="option10">
+                        <label class="form-check-label" for="inlineRadio2">5</label>
+                    </div>
+    
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="question3" id="inlineRadio3" value="option11">
+                        <label class="form-check-label" for="inlineRadio3">33</label>
+                    </div>
+    
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="question3" id="inlineRadio4" value="option12">
+                        <label class="form-check-label" for="inlineRadio4">11</label>
+                    </div>
+    
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-12-sm"><h4> 4. It is the beginning of eternity, the end of time and space. It is the start of every end, and the end of every place. What am I? </h4></div>
+            </div>
+
+            <div class="row justify-content-center">
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="question4" id="inlineRadio1" value="option13">
+                        <label class="form-check-label" for="inlineRadio1">U</label>
+                    </div>
+    
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="question4" id="inlineRadio2" value="option14">
+                        <label class="form-check-label" for="inlineRadio2">A</label>
+                    </div>
+    
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="question4" id="inlineRadio3" value="option15">
+                        <label class="form-check-label" for="inlineRadio3">O</label>
+                    </div>
+    
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="question4" id="inlineRadio4" value="option16">
+                        <label class="form-check-label" for="inlineRadio4">E</label>
+                    </div>
+            </div>
+
+
+    </div>
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <button id="game-start">Start!</button>
+        </div>
+    </div>
+
+    <div id="result-page" class="container bg-secondary">
+        <div class="row justify-content-center">
+            <h3>All Done!</h3>
+        </div>
+        <div class="row justify-content-center">
+            <h4 id="correct">Correct Answers: 0</h4>
+        </div>
+        <div class="row justify-content-center">
+            <h4 id="incorrect">Incorrect Answers: 0</h4>
+        </div>
+        <div class="row justify-content-center">
+            <h4 id="unanswered"> Unanswered: 0</h4>
+        </div>
+    </div>
+
+    <script src="assets/javascript/app.js"></script>
+</body>
+</html>
