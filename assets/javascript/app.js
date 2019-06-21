@@ -10,7 +10,7 @@ $("#game-start").click(function(){
 
 
 
-var time = 10;
+var time = 60;
 
 var intervalID = setInterval(countdown, 1000); 
 
